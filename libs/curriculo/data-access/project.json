@@ -1,0 +1,16 @@
+{
+  "name": "curriculo-data-access",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/curriculo/data-access/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/curriculo/data-access/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

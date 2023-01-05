@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo-next/curriculo/data-access": [
+        "libs/curriculo/data-access/src/index.ts"
+      ],
+      "@monorepo-next/curriculo/feature": [
+        "libs/curriculo/feature/src/index.ts"
+      ],
+      "@monorepo-next/curriculo/model": ["libs/curriculo/model/src/index.ts"],
+      "@monorepo-next/curriculo/ui": ["libs/curriculo/ui/src/index.ts"],
+      "@monorepo-next/shared/ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

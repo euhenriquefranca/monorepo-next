@@ -1,0 +1,1 @@
+export { resumeFixture } from './resumeFixture';
